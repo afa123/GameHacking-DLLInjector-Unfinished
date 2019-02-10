@@ -21,7 +21,7 @@ int main()
 	if (processID == NULL)
 		return -1;
 
-	ErrorExit((LPTSTR)"GetProcessID");
+	// Example call to ErrorExit((LPTSTR)"GetProcessID");
 
 	// Get handle to process
 
