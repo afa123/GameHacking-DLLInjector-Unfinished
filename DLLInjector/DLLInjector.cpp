@@ -21,13 +21,19 @@ int main()
 	if (processID == NULL)
 		return -1;
 
+	ErrorExit((LPTSTR)"GetProcessID");
+
 	// Get handle to process
 
 	// Allocate memory for "dllpath" in the target process
 
 	// Write "dllpath" to allocated memory
 
-	// Create remote thread at loadlibraryA with dllpath as argument
+	// Get handle to Kernel32.dll
+
+	// Find address of LoadlibraryA
+
+	// Create remote thread, with LoadLibraryA as argument
 
 	// Wait for thread to return
 
