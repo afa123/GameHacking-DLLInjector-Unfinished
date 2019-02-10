@@ -21,6 +21,19 @@ int main()
 	if (processID == NULL)
 		return -1;
 
+	// Get handle to process
+
+	// Allocate memory for "dllpath" in the target process
+
+	// Write "dllpath" to allocated memory
+
+	// Create remote thread at loadlibraryA with dllpath as argument
+
+	// Wait for thread to return
+
+	// Free the allocated memory
+
+	// Close handles
 
     std::cout << "Completed Injection" << std::endl; 
 }
